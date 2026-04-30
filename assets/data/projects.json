@@ -1,1 +1,20 @@
-
+[
+  {
+    "id": 1,
+    "title": "Mallete",
+    "year": "Leerjaar 1",
+    "category": "video",
+    "date": "2025-06-26",
+    "thumbnail": "assets/images/thumbnails/mallete.jpg",
+    "url": "projects/mallete.html"
+  },
+  {
+    "id": 2,
+    "title": "Studio Portraits",
+    "year": "Leerjaar 2",
+    "category": "foto",
+    "date": "2025-01-20",
+    "thumbnail": "assets/images/thumbnails/portraits.jpg",
+    "url": "projects/portraits.html"
+  }
+]

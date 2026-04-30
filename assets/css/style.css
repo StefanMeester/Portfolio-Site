@@ -1,0 +1,17 @@
+:root {
+    /* PAS HIER JE KLEUREN AAN */
+    --accent: #007AFF;       /* Electric Blue (Vervang door #D4AF37 voor Goud) */
+    --bg-dark: #0a0a0a;      /* Diep zwart */
+    --panel-bg: rgba(255, 255, 255, 0.05);
+    --text-main: #ffffff;
+    --text-dim: #a0a0a0;
+    --font-heading: 'Syne', sans-serif;
+    --font-body: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    font-family: var(--font-body);
+    cursor: none; /* We maken onze eigen cursor! */
+}

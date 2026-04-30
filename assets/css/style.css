@@ -15,3 +15,31 @@ body {
     font-family: var(--font-body);
     cursor: none; /* We maken onze eigen cursor! */
 }
+:root {
+--accent: #007AFF;
+--bg: #0a0a0a;
+--text: #ffffff;
+--text-dim: #888;
+--nav-bg: rgba(15, 15, 15, 0.8);
+}
+* { cursor: none !important; box-sizing: border-box; }
+body {
+background: var(--bg);
+color: var(--text);
+margin: 0;
+font-family: 'Inter', sans-serif;
+overflow-x: hidden;
+}
+/* De Custom Cursor */
+#cursor {
+width: 20px;
+height: 20px;
+background: white;
+border-radius: 50%;
+position: fixed;
+pointer-events: none;
+z-index: 9999;
+mix-blend-mode: difference;
+transition: transform 0.2s ease;
+}
+.cursor-hover { transform: scale(3); }
